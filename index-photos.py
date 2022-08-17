@@ -4,6 +4,7 @@ import boto3
 import requests
 import inflect
 
+# Test Code Pipeline
 s3 = boto3.client('s3')
 rekognition = boto3.client('rekognition')
 p = inflect.engine()
